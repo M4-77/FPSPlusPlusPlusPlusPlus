@@ -1,0 +1,3 @@
+# these are the mods that affected my computer, if any of you want to add to it please feel free to submit a pull request
+/SteamLibrary/steamapps/common/People Playground/CompiledMods/Amy-Atomics-3454540789.dll
+/SteamLibrary/steamapps/common/People Playground/CompiledMods/Amy-Vanilla Tools-3468095876.dll
