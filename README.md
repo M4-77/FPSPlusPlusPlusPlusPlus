@@ -6,7 +6,7 @@ after looking at the virus' code it looks vibecoded by a 9 year old, nothing tru
 # What did the virus do EXACTLY?
 fear not, heres a list of exactly what it does 
 
-. Injects/infects the game install (InfectMods)
+1. Injects/infects the game install (InfectMods)
 - Uses the embedded Mono.Cecil (stage 3_0) to rewrite assembly code; generates new mod source (```namespace {0} ... class ... OnLoad  templates, resetConfig.bat, TEMPORARY_, .outline marker), and writes malicious DLLs straight into People Playground_Data\Managed\{1}.dll via a UnityEvent<string,byte[]>/BinaryFormatter trick so the payload survives restarts (kind of persistent but you can just reinstall the game with no mods and youll be fine)
 
 2. Wipes in-game content
