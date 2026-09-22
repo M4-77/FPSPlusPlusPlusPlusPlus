@@ -2,6 +2,7 @@
 People playground was hacked and i was infected at 6:03:10pm BST, this pissed me off so heres the entire malware decompiled / decoded and all info i could gather about it
 
 // WARNING //
+
 Potentially harmful code, this is for malware analysis purposes unless youre a security engineer or you know what youre doing DO NOT DOWNLOAD FROM THIS REPO!!!! just read the stuff below
 I REPEAT DO NOT DOWNLOAD ANY OF THE FILES 
 i'm saying this so i'm not morally or ethically responsible if any of you do, legally i should be fine as github allows this type of stuff for malware analysis purposes which it is for, 
