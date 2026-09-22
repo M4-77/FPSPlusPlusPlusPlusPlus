@@ -4,6 +4,9 @@ People playground was hacked and i was infected at 6:03:10pm BST, this pissed me
 after looking at the virus' code it looks vibecoded by a 9 year old, nothing truly serious just mildly annoying
 
 # What did the virus do EXACTLY?
+
+# RESET YOUR DISCORD PASSWORD IF YOU WERE INFECTED, IT PUBLISHES YOUR TOKEN TO THE WORKSHOP!!!!!!!!!
+
 fear not, heres a list of exactly what it does 
 
 1. Injects/infects the game install (InfectMods)
