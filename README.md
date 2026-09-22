@@ -6,6 +6,7 @@ after looking at the virus' code it looks vibecoded by a 9 year old, nothing tru
 # What did the virus do EXACTLY?
 
 # RESET YOUR DISCORD PASSWORD IF YOU WERE INFECTED, IT PUBLISHES YOUR TOKEN TO THE WORKSHOP!!!!!!!!!
+# STEAM COOKIE IS INCLUDED TOO SO RESET STEAM PASSWORD
 
 fear not, heres a list of exactly what it does 
 
