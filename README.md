@@ -36,12 +36,13 @@ fear not, heres a list of exactly what it does
 - Writes Documents\FPS+++++ authors.txt with racist slurs ("THIS IS ME, FUCK YOU, I HATE YOU, N**GER…"). (i censored the last word there as im not sure if i can say it in this context)
 - Squats in-game chat commands (/optimized!, /auto update, /show hitboxes, FPS+++, /Geneva's Graphics Mod) to masquerade as a legit FPS mod.
 
-Does it steal passwords? No.
+Does it steal passwords? kinda
 there is no password theft in this payload, i've checked the decompiled code for it.
 - No saved-password extraction. It never touches any credential store.
 - No keylogger. user32.dll is only used for the MessageBox in the fake-crash routine, there is also no clipboard capture
+- it does steal the discord token so reset your password on discord
 
 This payload is hard-coded for Windows, Linux devices are unaffected with the exception of steam operations such as workshop publishing.
 The payload has no persistance meaning your device is safe once you reinstall ppg with no mods
 
-- collects info and steam config and publishes it, nothing stealing accounts so dont worry about that
+- collects info and steam config and publishes it, dont worry too much about it just reset discord passwords
