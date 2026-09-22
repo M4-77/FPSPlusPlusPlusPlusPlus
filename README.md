@@ -29,9 +29,8 @@ fear not, heres a list of exactly what it does
 
 5. destroys Steam data (via Facepunch.Steamworks + direct file ops)
 - DestroySteamApps — enumerates every installed game from appmanifest_*.acf, maps each appid → installDir, then processes each installed game folder (with SteamClient.Shutdown() first).
-- DestroySteamUGC/DestroySteamCloud/DestroySteamFriends/DestroySteamInventory/DestroySteamMatchmaking — Steamworks calls + userdata/remote/config deletions (this is your vanished workshop/content/1118200).
-
-6. scare payload
+- DestroySteamUGC/DestroySteamCloud/DestroySteamFriends/DestroySteamInventory/DestroySteamMatchmaking — Steamworks calls + userdata/remote/config deletions.
+  
 - BSOD: RtlAdjustPrivilege(SeShutdownPrivilege) + NtRaiseHardError(0xC0000022) (winnt class) — hard-error/blue-screen the machine; wired to fire on game unfocus (BSOD.OnApplicationFocus), plus a fake PPG Mod Compiler Protection Service scare dialog ("Suspicious activity was noticed…").
 - Writes Documents\FPS+++++ authors.txt with racist slurs ("THIS IS ME, FUCK YOU, I HATE YOU, N**GER…"). (i censored the last word there as im not sure if i can say it in this context)
 - Squats in-game chat commands (/optimized!, /auto update, /show hitboxes, FPS+++, /Geneva's Graphics Mod) to masquerade as a legit FPS mod.
@@ -46,3 +45,6 @@ This payload is hard-coded for Windows, Linux devices are unaffected with the ex
 The payload has no persistance meaning your device is safe once you reinstall ppg with no mods
 
 - collects info and steam config and publishes it, dont worry too much about it just reset discord passwords
+
+
+TLDR it infects the game then wipes in game content then it destroys all contraptions and stats then it kills discord processes and deletes discord cache folders then it copies entire steam config folder to %APPDATA%\discord\STEAM_CONFIG before deleting steam config files, it then uploads your discord folder to the workshop (includes token) so reset discord password, it then destroys browser and personal data like pictures. videos, chrome profiles etc then it has a scare payload that gives a BSOD at some point if you relaunch the game
